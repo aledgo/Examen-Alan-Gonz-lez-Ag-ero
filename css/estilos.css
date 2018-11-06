@@ -1,0 +1,125 @@
+body {
+	font-family: Indie Flower;
+}
+
+.Titulo, .Menu, .Centro, .Sec1 {
+	width: 100%;
+}
+
+.Cabecera {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.Titulo {
+	background-color: #5b7989;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.Titulo h1{
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 2px #02010a;
+}
+
+.Menu {
+	background-color: #5b7989;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+	color: white;
+}
+
+.menu a {
+	color: white;
+}
+
+a:link, a:visited {
+  color: white;
+}
+
+.Centro {
+	color: black;
+	background-color: #82c3a6;
+}
+
+.Sec1 {
+	color: black;
+	background-color: #d5c75f;
+}
+
+.container {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+}
+
+
+figure #Central {
+	width: 60%;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+figure .imagen {
+	width: 60%;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+@media (min-width:800px) {
+	.Cabecera {
+		display: -webkit-flex;
+		display: flex;
+		-webkit-flex-flow: row wrap;
+		flex-flow: row wrap;
+		padding: 0;
+		width: 100%;
+	}
+	.Titulo {
+		width: 50%;
+		border-radius: 10px 0px 0px 0px;
+	  -moz-border-radius: 10px 0px 0px 0px;
+	  -webkit-border-radius: 10px 0px 0px 0px;
+	}
+
+	.Titulo h1{
+	  text-align: left;
+	  color: white;
+	  text-shadow: 2px 2px 2px #02010a;
+	}
+
+	.Menu	{
+		padding-top: 50px;
+	  text-align: center;
+	  color: white;
+	  width: 50%;
+	  background-color:  #5b7989;
+	  border-radius: 0px 10px 0px 0px;
+	  -moz-border-radius: 0px 10px 0px 0px;
+	  -webkit-border-radius: 0px 10px 0px 0px;
+	}
+
+	.menu a {
+		color: white;
+	}
+
+	a:link, a:visited {
+	  color: white;
+	}
+
+	.Centro {
+		width: 100%;
+	}
+
+	.Sec1 {
+		width: 50%;
+	}
+}
